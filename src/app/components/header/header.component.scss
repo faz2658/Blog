@@ -1,0 +1,32 @@
+.pr-header-image{
+    background-color:rgb(5, 5, 54);
+    min-height: 50vh;
+    clip-path: polygon(0% 0%, 0% 100%, 400% 0%) margin-box;
+    overflow: hidden;
+}
+
+.profile-pic{
+    width:15vh;
+    height:15vh;
+    margin-top: 5vh;
+    border-radius: 3.25rem;
+}
+
+.profile-name{
+    background-color:rgb(5, 5, 54);
+    color:white;
+}
+
+.header-icon{
+    color:aliceblue;
+}
+
+.header-icon:hover{
+    // scale:(1.5,1.5);
+    transform: scale(1.5,1.5);
+    text-decoration: none;
+}
+
+.hobby{
+    margin-top: 2vh;
+}

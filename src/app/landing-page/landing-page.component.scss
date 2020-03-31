@@ -1,0 +1,42 @@
+.mainpage{
+    background-color: rgb(5, 5, 54); 
+  background-size: cover;
+}
+
+.topic-placing{
+    min-height: 100vh;
+    
+}
+
+.topic{
+    text-align: center;
+min-height: 100vh;
+align-content: center;
+display: grid; 
+}
+
+.topic-placing:hover{
+    animation: backanimate 5s infinite;
+    transition: linear;
+}
+
+.topic:hover{
+    text-decoration-style: solid white;
+}
+
+@keyframes backanimate {
+    from {background-color: rgb(5, 5, 54);}
+    to {background-color: blue;}
+  }
+
+  .topic-word{
+      color:white;
+      text-decoration-style: none;
+      outline: none;
+  }
+
+  .topic-word:hover{
+     text-decoration: none;
+     transform: scale(2);
+    -webkit-transform: scale(2);
+  }

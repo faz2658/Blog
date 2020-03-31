@@ -1,0 +1,106 @@
+.professional{
+    height:auto;
+    background-color: dodgerblue;
+}
+
+.resume{
+    background-color: darkcyan;
+    border-radius: 15px 50px 30px;
+    color:white;
+}
+
+.resume:hover{
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+            0 5px 15px 0 rgba(0,0,0,0.08);
+
+}
+
+.resume-content {
+    padding:2rem 0 0 3rem;
+}
+
+.name-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+.role-text{
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+}
+
+.role-row{
+    padding-top:2rem;
+}
+
+.contact-icon{
+    text-align: center;
+    padding-top:25vh;
+    display:flex;
+    padding-left:3vw;
+}
+
+.email-icon{
+    padding-top:5vh;
+    text-align: center;
+    display:flex;
+    padding-left:3vw;
+}
+
+.loc-icon{
+    padding-top:5vh;
+    text-align: center;
+    display:flex;
+    padding-left:3vw;
+}
+
+.loc{
+    // text-align: center;
+}
+
+.resume-right-content{
+    display:block ruby;
+    text-align: center;
+}
+
+.subtopic-heading{
+    border-radius: 15px 30px;
+    background-color: white;
+    color:darkcyan;
+    min-width:15rem;
+}
+
+.drop-full{
+    background-color: darkcyan;
+    color:white;
+    border: none;
+}
+
+.profile-head{
+    text-decoration: none;
+    color:white;
+    font-size:x-large;
+}
+
+.pad-top{
+    padding-top: 6rem;
+}
+
+.task{
+    display:inline list-item;
+}
+
+.fab{
+    scale:(1.3);
+    
+}
+
+.mca-content{
+    background-color: darkcyan;
+}
+// .fas{
+//     scale:(1.3);
+// }
