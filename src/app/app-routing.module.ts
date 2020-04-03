@@ -7,7 +7,9 @@ const routes: Routes = [
   {path: '',component:LandingPageComponent},
   {path: 'landing',component:LandingPageComponent},
   {path: 'professional',component:BlogComponent},
-  {path: 'home',component:BlogComponent}
+  {path: 'home',component:BlogComponent},
+  {path: '*',component:LandingPageComponent},
+  {path: '**',redirectTo:''}
 ];
 
 @NgModule({

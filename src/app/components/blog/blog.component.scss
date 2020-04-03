@@ -81,7 +81,6 @@
 
 .profile-head{
     text-decoration: none;
-    color:white;
     font-size:x-large;
 }
 
@@ -91,6 +90,15 @@
 
 .task{
     display:inline list-item;
+}
+.htopic{
+    border-radius: 15px 50px 30px;
+    background-color:white;
+    text-decoration: none;
+}
+
+.profile-head:hover{
+    text-decoration: none;
 }
 
 .fab{
@@ -104,3 +112,30 @@
 // .fas{
 //     scale:(1.3);
 // }
+
+.project-list{
+    text-align: initial;
+}
+
+.project-name{
+    font-size:22px;
+    font-weight: 600;
+}
+
+.client-name{
+    font-size:20px;
+    font-weight:550;
+}
+
+.achievements{
+    font-size:20px;
+    font-weight:500;
+}
+
+.tasks{
+    display:inline flow-root list-item;
+}
+
+.lan{
+    display: flow-root list-item;
+}
