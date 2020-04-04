@@ -1,0 +1,31 @@
+<div class="container-fluid my-pic">
+  <!-- <div class="d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div> -->
+  <!-- <img src="../../assets/Images/Faz.jpeg" class="img-fluid rounded my-pic" alt="Responsive image">
+      -->
+
+  <div class="jumbotron jumbotron-fluid" style="min-height:100vh">
+    <div class="container">
+      <h1 class="display-4">Fazeel's Blog</h1>
+      <p class="lead">Welcome to my Blog ! Currently Its Under development . However you can visit to one of the pages
+        to which describes about my skillset.</p>
+      <hr class="my-4">
+      <p class="lead">
+        Please Enter your name in the text box below to go to the next page.
+      </p>
+      <form [formGroup]="nameForm" (ngSubmit)="onSubmit()">
+        <input type="text" (change)="keypress()" formControlName="name">
+        <p class="butt">
+          <button type="submit" *ngIf="this.isButtonEnabled" class="btn btn-danger sub-btn">Next</button>
+        </p>
+        <p class="spinner-border spin" *ngIf="this.isSpinnerEnabled" role="status">
+          <span class="sr-only">Loading...</span>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+

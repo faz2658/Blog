@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { IntroComponent } from './intro/intro.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,11 +17,13 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     HeaderComponent,
     BlogComponent,
     FooterComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
