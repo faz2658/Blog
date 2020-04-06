@@ -1,0 +1,13 @@
+@media only screen and (max-width:630px){
+    .intro-column{
+        display:none;
+    }
+    .faz-column
+    {
+        // min-width: 50%;
+        max-width:50%
+    }
+    .pic-column{
+        max-width:50%;
+    }
+}
